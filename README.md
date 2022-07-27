@@ -1,4 +1,4 @@
-# calmdown
+# Calm-Down
 
 This is an extremely basic html/js website deployed on heroku.  
 The website (as of now) consists of a nothing but a button, which on being clicked generates a random question.  
