@@ -7,27 +7,72 @@
     <title>Calm Down Love</title>
 </head>
 <body>
-    <button id="button">Click Here</button>
-    <section id=111>
-    </section>
+    <button id="button1">Click Here for a Question</button>
+    <section id="display"></section>
+    <hr>
+    <button id="button2"> Click Here for Reaffirmation</button>
+    <section id="reaffirmation"> </section>
 </body>
+<style>
+    #button1, #button2{
+        background-color: #cae6d5;
+        border: none;
+        color: green;
+        padding: 40px 100px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    #display, #reaffirmation{
+        color: green;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font: bold 16px/1.5 Helvetica, Verdana, sans-serif;
+    }
+</style>
 <script>
-    ele1 = document.getElementById('button')
+    ele1 = document.getElementById('button1')
+    ele2 = document.getElementById('button2')
+
     ele1.addEventListener('click', function(){
-        questions = ["what is your name?",
-         "where are you from",
-         "what is your favorite color", 
-         "what is your favorite food",
-         "what is your favorite animal",
-         "what is your favorite sport", 
-         "what is your favorite movie",];
+        questions = ["What is your name?",
+         "Where are you from?",
+         "What is your favorite color?", 
+         "What is your favorite food?",
+         "What is your favorite animal?",
+         "What is your favorite sport?", 
+         "What is your favorite movie?",
+         "What is your favorite book?",
+         "What is your favorite band?",
+         "What is your favorite song?",
+         "What is your favorite game?"];
         length = questions.length;
         random = Math.floor(Math.random() * length);
         
         str1 = questions[random];
         string = '<h1>'+str1+'</h1>'
-        ele2 = document.getElementById('111')
+        ele2 = document.getElementById('display')
         ele2.innerHTML = string
-    })
+    });
+
+    ele2.addEventListener('click', function(){
+        questions = [
+            "I Love You",
+            "You Got This",
+            "You're the Best",
+            "Certified Badass <3"];
+        length = questions.length;
+        random = Math.floor(Math.random() * length);
+        
+        str1 = questions[random];
+        string = '<h1>'+str1+'</h1>'
+        ele2 = document.getElementById('reaffirmation')
+        ele2.innerHTML = string
+    });
+
 </script>
 </html>
