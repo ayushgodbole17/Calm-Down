@@ -20,7 +20,7 @@
     <section id="reaffirmation"> </section>
     <hr>
     <br>
-    <section id="slideshow"></section>
+    <section id="slideshow"> </section>
 </body>
 <style>
     #button1, #button2{
@@ -45,11 +45,14 @@
     #water{
         color:green;
     }
+    #slideshow{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 </style>
 <script>
-    ele1 = document.getElementById('button1')
-    ele2 = document.getElementById('button2')
-
+    ele1 = document.getElementById('button1');
     ele1.addEventListener('click', function(){
         questions = ["What is your name?",
          "Where are you from?",
@@ -71,6 +74,10 @@
         ele2.innerHTML = string
     });
 
+
+
+
+    ele2 = document.getElementById('button2');
     ele2.addEventListener('click', function(){
         questions = [
             "I Love You",
@@ -85,9 +92,15 @@
         ele2 = document.getElementById('reaffirmation')
         ele2.innerHTML = string
     });
+</script>
     
-    ele3 = document.getElementById('slideshow');
-    ele3.innerHTML = "<img src='/images/1.jpg' alt=''/>"
+<script language="JavaScript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+
+    $(document).ready(function(){
+        ele3 = document.getElementById('slideshow');
+        ele3.innerHTML = "<img src='/images/1.jpg' alt=''/>"
+    })
 
 </script>
+
 </html>
