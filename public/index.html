@@ -20,7 +20,23 @@
     <section id="reaffirmation"> </section>
     <hr>
     <br>
-    <section id="slideshow"> </section>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="https://drive.google.com/uc?export=view&id=1WbDWhyPdQdw1BL6Imvl7RP_YuIJZS0cS" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="https://drive.google.com/uc?export=view&id=1sp4HsB29xJaG9PQl7RXkQfxH3QKc9t9j" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="https://drive.google.com/uc?export=view&id=1ng_KDxZhx-IfaMOcq-rVkLq0TNM1aRB5" style="width:100%">
+        </div>
+
+    </div>
+        
+    
 </body>
 <style>
     #button1, #button2{
@@ -34,6 +50,7 @@
         font-size: 25px;
         margin: 4px 2px;
         cursor: pointer;
+
     }
     #display, #reaffirmation{
         color: green;
@@ -45,11 +62,30 @@
     #water{
         color:green;
     }
-    #slideshow{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+
+
+
+
+    .slideshow-container {
+        height: 500px;
+        width: 500px;
     }
+
+    .active {
+        background-color: #717171;
+    }
+
+    .fade {
+        animation-name: fade;
+        animation-duration: 5s;
+    }
+
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+
 </style>
 <script>
     ele1 = document.getElementById('button1');
@@ -92,14 +128,24 @@
         ele2 = document.getElementById('reaffirmation')
         ele2.innerHTML = string
     });
-</script>
-    
-<script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 
-    $(document).ready(function(){
-        ele3 = document.getElementById('slideshow');
-        ele3.innerHTML = "<img src='/images/1.jpg' alt=''/>"
-    })
+
+
+
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        slides[slideIndex-1].style.display = "block";  
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
 
 </script>
 
