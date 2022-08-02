@@ -6,33 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calm Down Love</title>
     <link rel="shortcut icon" type="image/ico" href="/cdlicon.ico">
-
 </head>
 <body>
     <marquee id = "water" direction="right" behavior="alternate"> GO DRINK WATER </marquee>
+    <marquee id = "dates" direction="left"> FIRST TIME WE EVER SPOKE: 6TH JAN 2022 ;;;;;;;;;;;;;;; 
+        FIRST TIME WE MET IN PERSON: 12TH MARCH 2022 ;;;;;;;;;;;;;;; 
+        FIRST DATE: 27TH MAY 2022 ;;;;;;;;;;;;;;; 
+        FIRST KISS: 30TH MAY 2022 ;;;;;;;;;;;;;;; 
+        THE DAY WE BOTH WERE IN LOVE: 5TH JUNE 2022 ;;;;;;;;;;;;;;; 
+        THE FIRST TIME WE SLEPT TOGETHER: 18TH JUNE 2022 ;;;;;;;;;;;;;;; 
+        THE DATE WE PUT A RING ON IT: 5TH JULY 2022
+    </marquee>
     <hr>
     <button id="button1">Click Here for a Question</button>
     <section id="display"></section>
-    <hr>
     <button id="button2"> Click Here for Reaffirmation</button>
     <section id="reaffirmation"> </section>
-    <hr>
     <br>
-    
     <div id="slideshow-container">
         
         <div class="mySlides fade">
-            <img src="https://drive.google.com/uc?export=view&id=1WbDWhyPdQdw1BL6Imvl7RP_YuIJZS0cS" width="350" height="400">
+            <img src="https://drive.google.com/uc?export=view&id=1WbDWhyPdQdw1BL6Imvl7RP_YuIJZS0cS" width="300" height="300">
         </div>
-        
-    
 </body>
 <style>
-    #button1, #button2{
+    body {
+        background-color: #e6f8e1;
+    }
+
+    #button1{
         background-color: #cae6d5;
         border: none;
         color: green;
         padding: 20px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    #button2{
+        background-color: #cae6d5;
+        border: none;
+        color: green;
+        padding: 20px 36px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -49,16 +67,17 @@
         font: bold 16px/1.5 Helvetica, Verdana, sans-serif;
     }
     #water{
-        color:green;
+        color:blue;
         font-size: 35px;
     }
-
-
-
+    #dates{
+        color:red;
+        font-size: 20px;
+    }
 
     .slideshow-container {
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
     }
 
     .active {
@@ -74,36 +93,21 @@
         from {opacity: .4} 
         to {opacity: 1}
     }
-
-
 </style>
 <script>
     ele1 = document.getElementById('button1');
     ele1.addEventListener('click', function(){
         questions = ["What is your name?",
-                     "Where are you from?",
-                     "What is your favorite color?", 
-                     "What is your favorite food?",
-                     "What is your favorite animal?",
-                     "What is your favorite sport?", 
-                     "What is your favorite movie?",
-                     "What is your favorite book?",
-                     "What is your favorite band?",
-                     "What is your favorite song?",
-                     "What is your favorite board game?",
-                     "What is a childhood memory you cherish?",
-                     "What is a memory from school you cherish?",
-                     "What is a memory you have of being badass?",
-                     "What is a memory you cherish from RV?",
-                     "What is a memory you cherish from MCC?",
-                     "What is a memory you cherish with Ayush?",
-                     "What is a memory you cherish with Siri?",
-                     "What is a memory you cherish with Mita?",
-                     "What is a memory you cherish with Abhirami?",
-                     "What is a memory you cherish with Srishti?",
-                     "Name 3 qualities you admire about yourself",
-                     "Detail an experience when you showed strength",
-                     "Detail an experience when you showed compassion"];
+         "Where are you from?",
+         "What is your favorite color?", 
+         "What is your favorite food?",
+         "What is your favorite animal?",
+         "What is your favorite sport?", 
+         "What is your favorite movie?",
+         "What is your favorite book?",
+         "What is your favorite band?",
+         "What is your favorite song?",
+         "What is your favorite game?"];
         length = questions.length;
         random = Math.floor(Math.random() * length);
         
@@ -119,17 +123,10 @@
     ele2 = document.getElementById('button2');
     ele2.addEventListener('click', function(){
         questions = [
-            "I Love You XOXOXOXO",
-            "You Got This <3",
+            "I Love You",
+            "You Got This",
             "You're the Best",
-            "Certified Badass <3",
-            "Warrior Queen <3",
-            "You light up my world like nobody else ;)",
-            "You're doing so well <3",
-            "You're not too much <3",
-            "So pretty!",
-            "You're a beautiful person and anxiety doesn't lessen that <3",
-            "Be kind to yourself love <3"];
+            "Certified Badass <3"];
         length = questions.length;
         random = Math.floor(Math.random() * length);
         
@@ -218,7 +215,7 @@
         var src = list_srcs[i].slice(32, 65)
         src2 = "https://drive.google.com/uc?export=view&id=" + src;
         console.log("SRC ", src);
-        var src1 = "<div class=\"mySlides fade\"> <img src=" + src2 + " width=\"350\"  height=\"400\" > </div> "
+        var src1 = "<div class=\"mySlides fade\"> <img src=" + src2 + " width=\"300\"  height=\"300\" > </div> "
         console.log("src1 ", src1);
         ele4.innerHTML += src1;
     }
