@@ -1,16 +1,16 @@
 ele1 = document.getElementById('button1');
 ele1.addEventListener('click', function(){
     questions = ["What is your name?",
-                    "Where are you from?",
-                    "What is your favorite color?", 
-                    "What is your favorite food?",
-                    "What is your favorite animal?",
-                    "What is your favorite sport?", 
-                    "What is your favorite movie?",
-                    "What is your favorite book?",
-                    "What is your favorite band?",
-                    "What is your favorite song?",
-                    "What is a childhood memory you cherish?",
+                "Where are you from?",
+                "What is your favorite color?", 
+                "What is your favorite food?",
+                "What is your favorite animal?",
+                "What is your favorite sport?", 
+                "What is your favorite movie?",
+                "What is your favorite book?",
+                "What is your favorite band?",
+                "What is your favorite song?",
+                "What is a childhood memory you cherish?",
                 "What is a memory from DPS that you cherish?",
                 "What is a memory from RV that you cherish?",
                 "What is a memory from MCC that you cherish?",
@@ -94,29 +94,29 @@ list_srcs = ["https://drive.google.com/file/d/1ng_KDxZhx-IfaMOcq-rVkLq0TNM1aRB5/
             "https://drive.google.com/file/d/1_NNRaxpblpuU5imhtj-hGL-V734_tVl6/view?usp=sharing",
             "https://drive.google.com/file/d/1znBWSd-CZjLGlGZyRhCgm7ZdZsGLy_zi/view?usp=sharing",
             "https://drive.google.com/file/d/1zjr5zSi0VrS4g7PfpRwC5IJ79ldhvrAP/view?usp=sharing",
-                "https://drive.google.com/file/d/1ixbM9SxKU5JQjtEkmB1Z_c5gvkaU-EDz/view?usp=sharing",
-                "https://drive.google.com/file/d/1-KQMU-eU__SMkrggWk46GQ5e_vVKmzmK/view?usp=sharing",
-                "https://drive.google.com/file/d/1BPlUjOM3fQNfUOxIkSuOXQGUvcoLyiwe/view?usp=sharing",
-                "https://drive.google.com/file/d/1xBXHqR69Guv8NOG8MfJDiDYQoaym5g8l/view?usp=sharing",
-                "https://drive.google.com/file/d/1kceLTV_wDEtd057PK4Y4Raegq04m4STD/view?usp=sharing",
-                "https://drive.google.com/file/d/1YeOm3YqEtlWMUB1N_eQ2OFXbmq8VwVkO/view?usp=sharing",
-                "https://drive.google.com/file/d/1jS_oCDzatbNX6A8lZcivVNRvlDG8nxtp/view?usp=sharing",
-                "https://drive.google.com/file/d/135xhgjkKj-Ly1MzJvyN2jODDKWCXpj4g/view?usp=sharing",
-                "https://drive.google.com/file/d/1UupfqRmz1Gmi2iDCym6OXpnON8KNHvSp/view?usp=sharing",
-                "https://drive.google.com/file/d/1iu2vqjJKx5B5xmup34MUfjiZYhhRxzhA/view?usp=sharing",
-                "https://drive.google.com/file/d/1gg_fFQlDB2cCj8nts5gcBCpuLoY507Rs/view?usp=sharing",
-                "https://drive.google.com/file/d/18V3ag_-wndl6rQxXCeqdq238jxHuVle_/view?usp=sharing",
-                "https://drive.google.com/file/d/1C7KjO9W9RNJuvMHjCOjeHAHKOsViZxIw/view?usp=sharing",
-                "https://drive.google.com/file/d/1g0qtWWqrOzmhyLOURGlcRBzk2khi1HMG/view?usp=sharing",
-                "https://drive.google.com/file/d/1SKLBCli0GeN0xHSVp8hyg-WynCQ89rOv/view?usp=sharing",
-                "https://drive.google.com/file/d/1LL9q56HXTxKaxmca6Lst9VOv-BEGMA_p/view?usp=sharing",
-                "https://drive.google.com/file/d/1nNRTP7p6gE8M_S34dqkmiJesKJERokPZ/view?usp=sharing",
-                "https://drive.google.com/file/d/1tex2yJCU-xqfXSLIpuxgKcC4fRLtpHQq/view?usp=sharing",
-                "https://drive.google.com/file/d/1j82KUnjbQjINyJj5ktk9NpsYiOCHuTq7/view?usp=sharing",
-                "https://drive.google.com/file/d/11fO3LraZLNrYdhAUM-sSu0__6gs3hlpM/view?usp=sharing",
-                "https://drive.google.com/file/d/1j6gsil3Dn189VTQRfGV4Pk-97aw5_BDi/view?usp=sharing",
-                "https://drive.google.com/file/d/1wHZb4xPUAAhMPcTGV6cd3ohwQ9QKqgbv/view?usp=sharing",
-                "https://drive.google.com/file/d/1m4PA3vwdnm2ScT4HsR2UjAwCfPzrxAsc/view?usp=sharing"
+            "https://drive.google.com/file/d/1ixbM9SxKU5JQjtEkmB1Z_c5gvkaU-EDz/view?usp=sharing",
+            "https://drive.google.com/file/d/1-KQMU-eU__SMkrggWk46GQ5e_vVKmzmK/view?usp=sharing",
+            "https://drive.google.com/file/d/1BPlUjOM3fQNfUOxIkSuOXQGUvcoLyiwe/view?usp=sharing",
+            "https://drive.google.com/file/d/1xBXHqR69Guv8NOG8MfJDiDYQoaym5g8l/view?usp=sharing",
+            "https://drive.google.com/file/d/1kceLTV_wDEtd057PK4Y4Raegq04m4STD/view?usp=sharing",
+            "https://drive.google.com/file/d/1YeOm3YqEtlWMUB1N_eQ2OFXbmq8VwVkO/view?usp=sharing",
+            "https://drive.google.com/file/d/1jS_oCDzatbNX6A8lZcivVNRvlDG8nxtp/view?usp=sharing",
+            "https://drive.google.com/file/d/135xhgjkKj-Ly1MzJvyN2jODDKWCXpj4g/view?usp=sharing",
+            "https://drive.google.com/file/d/1UupfqRmz1Gmi2iDCym6OXpnON8KNHvSp/view?usp=sharing",
+            "https://drive.google.com/file/d/1iu2vqjJKx5B5xmup34MUfjiZYhhRxzhA/view?usp=sharing",
+            "https://drive.google.com/file/d/1gg_fFQlDB2cCj8nts5gcBCpuLoY507Rs/view?usp=sharing",
+            "https://drive.google.com/file/d/18V3ag_-wndl6rQxXCeqdq238jxHuVle_/view?usp=sharing",
+            "https://drive.google.com/file/d/1C7KjO9W9RNJuvMHjCOjeHAHKOsViZxIw/view?usp=sharing",
+            "https://drive.google.com/file/d/1g0qtWWqrOzmhyLOURGlcRBzk2khi1HMG/view?usp=sharing",
+            "https://drive.google.com/file/d/1SKLBCli0GeN0xHSVp8hyg-WynCQ89rOv/view?usp=sharing",
+            "https://drive.google.com/file/d/1LL9q56HXTxKaxmca6Lst9VOv-BEGMA_p/view?usp=sharing",
+            "https://drive.google.com/file/d/1nNRTP7p6gE8M_S34dqkmiJesKJERokPZ/view?usp=sharing",
+            "https://drive.google.com/file/d/1tex2yJCU-xqfXSLIpuxgKcC4fRLtpHQq/view?usp=sharing",
+            "https://drive.google.com/file/d/1j82KUnjbQjINyJj5ktk9NpsYiOCHuTq7/view?usp=sharing",
+            "https://drive.google.com/file/d/11fO3LraZLNrYdhAUM-sSu0__6gs3hlpM/view?usp=sharing",
+            "https://drive.google.com/file/d/1j6gsil3Dn189VTQRfGV4Pk-97aw5_BDi/view?usp=sharing",
+            "https://drive.google.com/file/d/1wHZb4xPUAAhMPcTGV6cd3ohwQ9QKqgbv/view?usp=sharing",
+            "https://drive.google.com/file/d/1m4PA3vwdnm2ScT4HsR2UjAwCfPzrxAsc/view?usp=sharing"
 ];
 
 list_srcs = shuffle(list_srcs);
@@ -132,7 +132,7 @@ for(i=0; i<list_srcs.length; i++){
     var src = list_srcs[i].slice(32, 65)
     src2 = "https://drive.google.com/uc?export=view&id=" + src;
     console.log("SRC ", src);
-    var src1 = "<div class=\"mySlides fade\"> <img src=" + src2 + " width=\"300\"  height=\"300\" > </div> "
+    var src1 = "<div class=\"mySlides fade\"> <img src=" + src2 + " width=\"350\"  height=\"400\" > </div> "
     console.log("src1 ", src1);
     ele4.innerHTML += src1;
 }
