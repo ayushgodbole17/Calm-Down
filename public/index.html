@@ -81,16 +81,29 @@
     ele1 = document.getElementById('button1');
     ele1.addEventListener('click', function(){
         questions = ["What is your name?",
-         "Where are you from?",
-         "What is your favorite color?", 
-         "What is your favorite food?",
-         "What is your favorite animal?",
-         "What is your favorite sport?", 
-         "What is your favorite movie?",
-         "What is your favorite book?",
-         "What is your favorite band?",
-         "What is your favorite song?",
-         "What is your favorite game?"];
+                     "Where are you from?",
+                     "What is your favorite color?", 
+                     "What is your favorite food?",
+                     "What is your favorite animal?",
+                     "What is your favorite sport?", 
+                     "What is your favorite movie?",
+                     "What is your favorite book?",
+                     "What is your favorite band?",
+                     "What is your favorite song?",
+                     "What is your favorite board game?",
+                     "What is a childhood memory you cherish?",
+                     "What is a memory from school you cherish?",
+                     "What is a memory you have of being badass?",
+                     "What is a memory you cherish from RV?",
+                     "What is a memory you cheirhs from MCC?",
+                     "What is a memory you cherish with Ayush?",
+                     "What is a memory you cherish with Siri?",
+                     "What is a memory you cherish with Mita?",
+                     "What is a memory you cherish with Abhirami?",
+                     "What is a memory you cherish with Srishti?",
+                     "Name 3 qualities you admire about yourself",
+                     "Detail an experience when you showed strength",
+                     "Detail an experience when you showed compassion"];
         length = questions.length;
         random = Math.floor(Math.random() * length);
         
@@ -106,10 +119,17 @@
     ele2 = document.getElementById('button2');
     ele2.addEventListener('click', function(){
         questions = [
-            "I Love You",
-            "You Got This",
+            "I Love You XOXOXOXO",
+            "You Got This <3",
             "You're the Best",
-            "Certified Badass <3"];
+            "Certified Badass <3",
+            "Warrior Queen <3",
+            "You light up my world like nobody else ;)",
+            "You're doing so well <3",
+            "You're not too much <3",
+            "So pretty!",
+            "You're a beautiful person and anxiety doesn't lessen that <3",
+            "Be kind to yourself love <3"];
         length = questions.length;
         random = Math.floor(Math.random() * length);
         
@@ -165,13 +185,7 @@
     list_srcs = shuffle(list_srcs);
     function shuffle(array) {
         for (let i = array.length - 1; i > 0; i--) {
-            let j = Math.floor(Math.random() * (i + 1)); // random index from 0 to i
-
-    // swap elements array[i] and array[j]
-    // we use "destructuring assignment" syntax to achieve that
-    // you'll find more details about that syntax in later chapters
-    // same can be written as:
-    // let t = array[i]; array[i] = array[j]; array[j] = t
+            let j = Math.floor(Math.random() * (i + 1)); 
             [array[i], array[j]] = [array[j], array[i]];
         }
         return array;
