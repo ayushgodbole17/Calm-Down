@@ -9,31 +9,34 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <marquee id = "water" scrollamount=1 direction="right" behavior="alternate"> GO DRINK WATER </marquee>
-    <marquee id = "dates" direction="left"> IMPORTANT DATES!!! ;;;;;;;;;;;;;;
-        FIRST TIME WE EVER SPOKE: 6TH JAN 2022 ;;;;;;;;;;;;;;; 
-        FIRST TIME WE MET IN PERSON: 12TH MARCH 2022 ;;;;;;;;;;;;;;; 
-        FIRST DATE: 27TH MAY 2022 ;;;;;;;;;;;;;;; 
-        FIRST KISS: 30TH MAY 2022 ;;;;;;;;;;;;;;; 
-        THE DAY WE BOTH WERE IN LOVE: 5TH JUNE 2022 ;;;;;;;;;;;;;;; 
-        THE FIRST TIME WE SLEPT TOGETHER: 18TH JUNE 2022 ;;;;;;;;;;;;;;; 
-        THE DATE WE PUT A RING ON IT: 5TH JULY 2022
-    </marquee>
+    <div id="left">
+        <marquee id = "water" scrollamount=1 direction="right" behavior="alternate"> GO DRINK WATER </marquee>
+        <marquee id = "dates" direction="left"> IMPORTANT DATES!!! ;;;;;;;;;;;;;;
+            FIRST TIME WE EVER SPOKE: 6TH JAN 2022 ;;;;;;;;;;;;;;; 
+            FIRST TIME WE MET IN PERSON: 12TH MARCH 2022 ;;;;;;;;;;;;;;; 
+            FIRST DATE: 27TH MAY 2022 ;;;;;;;;;;;;;;; 
+            FIRST KISS: 30TH MAY 2022 ;;;;;;;;;;;;;;; 
+            THE DAY WE BOTH WERE IN LOVE: 5TH JUNE 2022 ;;;;;;;;;;;;;;; 
+            THE FIRST TIME WE SLEPT TOGETHER: 18TH JUNE 2022 ;;;;;;;;;;;;;;; 
+            THE DATE WE PUT A RING ON IT: 5TH JULY 2022
+        </marquee>
+        <hr>
+        <button id="button1">Click Here for a Question</button>
+        <section id="display"></section>
+        <button id="button2"> Click Here for Reaffirmation</button>
+        <section id="reaffirmation"> </section>                            
+        <audio controls autoplay loop>
+          <source src="mysterylady.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+    </div>
+                                                                                                           
     <hr>
-    <button id="button1">Click Here for a Question</button>
-    <section id="display"></section>
-    <button id="button2"> Click Here for Reaffirmation</button>
-    <section id="reaffirmation"> </section>
-    <br>
-    <audio controls autoplay loop>
-      <source src="mysterylady.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    <hr>
-    <div id="slideshow-container">
-        
-        <div class="mySlides fade">
-            <img src="https://drive.google.com/uc?export=view&id=1WbDWhyPdQdw1BL6Imvl7RP_YuIJZS0cS" width="350" height="400">
+    <div id="right">
+        <div id="slideshow-container"> 
+            <div class="mySlides fade">
+                <img src="https://drive.google.com/uc?export=view&id=1WbDWhyPdQdw1BL6Imvl7RP_YuIJZS0cS" width="350" height="400">
+            </div>
         </div>
     </div>
     <script src="source.js"></script>
