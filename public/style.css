@@ -2,6 +2,18 @@ body {
     background-color: #e6f8e1;
 }
 
+#left, #right {
+    width: 50%; 
+}
+  
+#left {
+    float: left;
+}
+  
+#right {
+    float: right;
+}
+
 #button1{
     background-color: #cae6d5;
     border: none;
