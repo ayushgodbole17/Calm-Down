@@ -1,0 +1,66 @@
+body {
+    background-image: url("hearts2.jpg")
+}
+
+#button1{
+    background-color: #cae6d5;
+    border: none;
+    color: green;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#button2{
+    background-color: #cae6d5;
+    border: none;
+    color: green;
+    padding: 20px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+#display, #reaffirmation{
+    color: rgb(206, 215, 206);
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font: bold 16px/1.5 Helvetica, Verdana, sans-serif;
+}
+#water{
+    color:rgb(240, 226, 226);
+    font-size: 45px;
+}
+#dates{
+    color:white;
+    font-size: 20px;
+}
+#song{
+    color: green;
+}
+
+.slideshow-container {
+    height: 250px;
+    width: 250px;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
