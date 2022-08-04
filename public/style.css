@@ -2,6 +2,17 @@ body {
     background-image: url("hearts2.jpg")
 }
 
+#left, #right {
+    width: 50%; 
+  
+#left {
+    float: left;
+}
+  
+#right {
+    float: right;
+}
+
 #button1{
     background-color: #cae6d5;
     border: none;
