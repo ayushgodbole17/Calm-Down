@@ -8,10 +8,12 @@ body {
 
 #left {
     float: left;
+    display: block;
 }
   
 #right {
     float: right;
+    display: block;
 }
 
 #button1{
