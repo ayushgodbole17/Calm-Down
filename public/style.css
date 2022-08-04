@@ -4,7 +4,8 @@ body {
 
 #left, #right {
     width: 50%; 
-  
+}
+
 #left {
     float: left;
 }
