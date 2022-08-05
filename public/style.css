@@ -2,17 +2,11 @@ body {
     background-color: #e6f8e1;
 }
 
-#left, #right {
-    width: 50%; 
-}
-  
-#left {
+.column{
     float: left;
+    width: 33%
 }
-  
-#right {
-    float: right;
-}
+
 
 #button1{
     background-color: #cae6d5;
@@ -72,4 +66,10 @@ body {
 @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
 }
