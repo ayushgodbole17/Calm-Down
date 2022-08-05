@@ -10,30 +10,69 @@
 </head>
 <body>
     
-        <marquee id = "water" scrollamount=1 direction="right" behavior="alternate"> GO DRINK WATER </marquee>
-        <marquee id = "dates" direction="left"> IMPORTANT DATES!!! ;;;;;;;;;;;;;;
-            FIRST TIME WE EVER SPOKE: 6TH JAN 2022 ;;;;;;;;;;;;;;; 
-            FIRST TIME WE MET IN PERSON: 12TH MARCH 2022 ;;;;;;;;;;;;;;; 
-            FIRST DATE: 27TH MAY 2022 ;;;;;;;;;;;;;;; 
-            FIRST KISS: 30TH MAY 2022 ;;;;;;;;;;;;;;; 
-            THE DAY WE BOTH WERE IN LOVE: 5TH JUNE 2022 ;;;;;;;;;;;;;;; 
-            THE FIRST TIME WE SLEPT TOGETHER: 18TH JUNE 2022 ;;;;;;;;;;;;;;; 
-            THE DATE WE PUT A RING ON IT: 5TH JULY 2022
-        </marquee>
-        <hr>
-    <div id="left">
+    <marquee id = "water" scrollamount=1 direction="right" behavior="alternate"> GO DRINK WATER </marquee>
+    
+    <marquee id = "dates" direction="left"> IMPORTANT DATES!!! ;;;;;;;;;;;;;;
+        FIRST TIME WE EVER SPOKE: 6TH JAN 2022 ;;;;;;;;;;;;;;; 
+        FIRST TIME WE MET IN PERSON: 12TH MARCH 2022 ;;;;;;;;;;;;;;; 
+        FIRST DATE: 27TH MAY 2022 ;;;;;;;;;;;;;;; 
+        FIRST KISS: 30TH MAY 2022 ;;;;;;;;;;;;;;; 
+        THE DAY WE BOTH WERE IN LOVE: 5TH JUNE 2022 ;;;;;;;;;;;;;;; 
+        THE FIRST TIME WE SLEPT TOGETHER: 18TH JUNE 2022 ;;;;;;;;;;;;;;; 
+        THE DATE WE PUT A RING ON IT: 5TH JULY 2022
+    </marquee>
+    
+    <hr>
+    
+    <div id="left" class="column">
+        
         <button id="button1">Click Here for a Question</button>
-        <section id="display"></section>
-        <button id="button2"> Click Here for Reaffirmation</button>
-        <section id="reaffirmation"> </section> 
+        
+        <section id="display"></section> 
+        
         <br>
+        
+        <p> Mystery Lady:</p>
         <audio controls autoplay loop>
           <source src="mysterylady.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
+        
+        <br>
+
+        <p>Nothing's Gonna Hurt You Baby:</p>
+        <audio controls autoplay loop>
+            <source src="nothinggonnahurtyou.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+    </div>
+    
+    <div id="centre" class="column">
+        
+        <button id="button2"> Click Here for Reaffirmation</button>
+        
+        <section id="reaffirmation"> </section>
+
+        <br>
+
+        <p> I Like You:</p>
+        <audio controls autoplay loop>
+            <source src="ilikeyou.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        
+        <br>
+
+        <p>Glass Table Girls:</p>
+        <audio controls autoplay loop>
+            <source src="glasstablegirls.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
     </div>
                                                                                                          
-    <div id="right">
+    <div id="right" class="column">
         <div id="slideshow-container"> 
             <div class="mySlides fade">
                 <img src="https://drive.google.com/uc?export=view&id=1WbDWhyPdQdw1BL6Imvl7RP_YuIJZS0cS" width="350" height="400">
@@ -43,3 +82,4 @@
     <script src="source.js"></script>
 </body>
 </html>
+
