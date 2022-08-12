@@ -60,12 +60,12 @@ body {
 
 .fade {
     animation-name: fade;
-    animation-duration: 15s;
+    animation-duration: 30s;
 }
 
 @keyframes fade {
-    from {opacity: 5} 
-    to {opacity: 15}
+    from {opacity: 0.5} 
+    to {opacity: 2}
 }
 
 @media screen and (max-width: 600px) {
