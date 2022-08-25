@@ -15,7 +15,10 @@ ele1.addEventListener('click', function(){
                 "What is a memory from RV that you cherish?",
                 "What is a memory from MCC that you cherish?",
                 "What is your earliest good memory?",
-                "What, according to you, are your 3 best qualities?"];
+                "What, according to you, are your 3 best qualities?",
+                "What are yout top 3 favourite movies of all time and why?",
+                "What are your top 3 cutest baby animals of all time?",
+                "What are your favourite stories from Indian Mythology?"];
     length = questions.length;
     random = Math.floor(Math.random() * length);
     
@@ -43,7 +46,15 @@ ele2.addEventListener('click', function(){
         "This too shall pass :)",
         "Hang in there princess <3",
         "You got this love <3",
-        "Keep shining baby <3"];
+        "Keep shining baby <3",
+        "You are at the right place, at the right time, doing the right thing <3",
+        "You are loved just for being who you are, just for existing <3",
+        "Make way for the unprecedented and watch your reality rearrange yourself <3",
+        "Open your heart and drink in the glorious day <3",
+        "Your perspective is unique. It’s important and it counts <3",
+        "Nothing can dim the light that shines from within" <3,
+        "Good riddance to decisions that don't support self-care, self-value, and self-worth <3",
+    ];
     length = questions.length;
     random = Math.floor(Math.random() * length);
     
